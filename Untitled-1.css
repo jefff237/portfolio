@@ -1,0 +1,42 @@
+
+body {
+  background-color: hsl(101, 84%, 33%);
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+section {
+  margin: 15px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+p {
+  line-height: 1.6;
+}
+.container {
+  padding: 20px;
+}
+.lead {
+  font-size: 1.25rem;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.icon-image {
+  margin-right: 5px;
+}
+
+
+
+AMpbtRdm6J

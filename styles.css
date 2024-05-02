@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #868585; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  font-family: 'Roboto', sans-serif; /* Roboto font with fallback to sans-serif */
+  line-height: 1.6; /* Improved readability with increased line height */
+}
+
+header {
+  background-color: #333; /* Dark background for the header */
+  color: rgb(58, 58, 58); /* Light text color for the header */
+  padding: 20px 0; /* Padding for the header content */
+  text-align: center; /* Center-align the header content */
+}
+
+section {
+  margin: 30px 0; /* Increased margin for sections */
+  padding: 20px; /* Padding for sections */
+  background-color: hsl(0, 2%, 57%); /* White background for sections */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* Bold font weight for headings */
+  color: hsl(0, 0%, 13%); /* Dark gray color for headings */
+  text-align: center; /* Center-align headings */
+  margin-bottom: 20px; /* Adjusted margin for headings */
+}
+
+p {
+  line-height: 1.6; /* Consistent line height for paragraphs */
+  color: #555; /* Slightly lighter text color for paragraphs */
+}
+
+.container {
+  max-width: 800px; /* Increased max-width for better content presentation */
+  margin: 0 auto; /* Center-align the container */
+  padding: 40px; /* Increased padding for the main content container */
+  background-color: hwb(259 83% 6%); /* Light gray background for the main content */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+.lead {
+  font-size: 1.5rem; /* Increased font size for lead text */
+  text-align: center; /* Center-align lead text */
+  color: #666; /* Slightly lighter text color for lead text */
+}
+
+.btn-primary {
+  display: block; /* Display buttons as block elements for full width */
+  width: 100%; /* Full width for primary buttons */
+  padding: 15px; /* Increased padding for better button size */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded button corners */
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* White text color for better contrast */
+  font-size: 1.2rem; /* Slightly increased font size for button text */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  margin-top: 20px; /* Adjusted margin for buttons */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on button hover for visual feedback */
+}
